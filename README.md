@@ -1,1 +1,3 @@
-[FluxogramasMBA.drawio.pdf](https://github.com/user-attachments/files/19466003/FluxogramasMBA.drawio.pdf)
+![image](https://github.com/user-attachments/assets/d9bfaac5-9ab8-4c4b-9337-0d1ff442758c)
+
+![image](https://github.com/user-attachments/assets/44c3cebe-54dc-47b3-86ca-6eec8bac071c)
