@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+/* Cabeçalho */
+header {
+    background: linear-gradient(135deg, #014D40, #01796F);
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+/* Estilização da imagem principal */
+.hero {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.hero img {
+    width: 90%;
+    max-width: 1100px;
+    height: 200px;
+    object-fit: contain;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Descrição sobre a UNIVAS */
+.univas-description {
+    padding: 40px 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+    font-size: 1rem;
+    line-height: 1.6;
+    text-align: justify;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+/* Grid principal */
+.grid-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+}
+
+/* Estilização dos itens do grid */
+.grid-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1000px;
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+/* Alternando a direção das colunas para criar a sequência desejada */
+.grid-item:nth-child(odd) {
+    flex-direction: row;
+}
+
+.grid-item:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+/* Ajuste das imagens dentro do grid */
+.grid-item img {
+    width: 45%;
+    max-width: 400px;
+    border-radius: 10px;
+}
+
+/* Ajuste do texto para melhor alinhamento */
+.grid-item .text {
+    width: 50%;
+    text-align: left;
+}
+
+.grid-item:nth-child(even) .text {
+    text-align: right;
+}
+
+/* Rodapé */
+footer {
+    background: #014D40;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
