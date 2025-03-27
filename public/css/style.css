@@ -2,88 +2,216 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f8f9fa;
+    background-color: #ffffff;
     color: #333;
 }
 
 /* Cabeçalho */
 header {
-    background: linear-gradient(135deg, #014D40, #01796F);
+    background: #014D40;
     color: white;
     text-align: center;
     padding: 30px 20px;
 }
 
-/* Estilização da imagem principal */
-.hero {
-    display: flex;
-    justify-content: center;
+/* Seção de Descrição Centralizada */
+.description {
+    text-align: center;
+    max-width: 800px;
+    margin: 40px auto;
     padding: 20px;
+    font-size: 1.2rem;
+    color: #000000;
 }
 
-.hero img {
-    width: 90%;
-    max-width: 1100px;
-    height: 200px;
-    object-fit: contain;
+/* Seção Hero */
+.hero-section {
+    display: flex;
+    align-items: center;
+    max-width: 1250px;
+    margin: 40px auto;
+    padding: 20px;
+    gap: 30px;
+}
+
+/* Texto à esquerda */
+.hero-text {
+    width: 50%;
+}
+
+.topic {
+    background: #f0fdfa;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-left: 5px solid #01796F;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.topic h3 {
+    color: #014D40;
+    margin-bottom: 5px;
+}
+
+.topic p {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #555;
+}
+
+/* Imagem à direita */
+.hero-image {
+    width: 50%;
+    text-align: right;
+}
+
+.hero-image img {body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    color: #333;
+}
+
+/* Cabeçalho */
+header {
+    background: #014D40;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+/* Seção de Descrição Centralizada */
+.description {
+    text-align: center;
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    font-size: 1.2rem;
+    color: #000000;
+}
+
+/* Seção Hero - agora ocupa 100% da largura */
+.hero-section {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+    margin: 40px 0;
+    padding: 20px 0;
+    gap: 30px;
+    background: linear-gradient(to right, #f8f8f8 50%, #ffffff 50%);
+}
+
+/* Texto à esquerda */
+.hero-text {
+    width: 45%;
+    max-width: 600px;
+    padding-left: 5%;
+}
+
+/* Estilo especial para o tópico "Sobre o curso" */
+.highlight-topic {
+    background: #01796F;
+    padding: 25px;
+    margin-bottom: 25px;
     border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    color: white;
+    transform: scale(1.02);
+    transition: all 0.3s ease;
 }
 
-/* Descrição sobre a UNIVAS */
-.univas-description {
-    padding: 40px 20px;
-    max-width: 1000px;
-    margin: 0 auto;
+.highlight-topic h3 {
+    color: white;
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+    padding-bottom: 10px;
+}
+
+.highlight-topic p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #f0fdfa;
+}
+
+.topic {
+    background: #f0fdfa;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-left: 5px solid #01796F;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.topic:hover {
+    transform: translateX(5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.topic h3 {
+    color: #014D40;
+    margin-bottom: 10px;
+    font-size: 1.3rem;
+}
+
+.topic p {
     font-size: 1rem;
     line-height: 1.6;
-    text-align: justify;
-    background-color: #ffffff;
-    border-radius: 10px;
+    color: #555;
 }
 
-/* Grid principal */
-.grid-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 40px 20px;
-}
-
-/* Estilização dos itens do grid */
-.grid-item {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    max-width: 1000px;
-    width: 100%;
-    margin-bottom: 40px;
-}
-
-/* Alternando a direção das colunas para criar a sequência desejada */
-.grid-item:nth-child(odd) {
-    flex-direction: row;
-}
-
-.grid-item:nth-child(even) {
-    flex-direction: row-reverse;
-}
-
-/* Ajuste das imagens dentro do grid */
-.grid-item img {
+/* Imagem à direita */
+.hero-image {
     width: 45%;
-    max-width: 400px;
+    max-width: 600px;
+    padding-right: 5%;
+}
+
+.hero-image img {
+    width: 100%;
+    max-width: 100%;
     border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease;
 }
 
-/* Ajuste do texto para melhor alinhamento */
-.grid-item .text {
-    width: 50%;
-    text-align: left;
+.hero-image img:hover {
+    transform: scale(1.01);
 }
 
-.grid-item:nth-child(even) .text {
-    text-align: right;
+/* Rodapé */
+footer {
+    background: #014D40;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .hero-section {
+        flex-direction: column;
+        background: #f8f8f8;
+        padding: 20px;
+    }
+    
+    .hero-text, .hero-image {
+        width: 100%;
+        padding: 0;
+    }
+    
+    .highlight-topic {
+        transform: none;
+    }
+}
+    width: 100%;
+    max-width: 450px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 /* Rodapé */
