@@ -52,6 +52,7 @@ app.post('/inscrever', (req, res) => {
     });
 });
 
+//http://localhost:3003/inscricoes/{id}
 app.delete('/inscricoes/:id', (req, res) => {
     const { id } = req.params;
 
