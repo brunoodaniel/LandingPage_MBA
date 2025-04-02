@@ -14,7 +14,7 @@ A Landing Page para lançamento do produto: “MBA em Banking, Finanças e Coope
 ## Site Finalizado
 ![image](https://github.com/user-attachments/assets/1b3c5279-3be0-4d53-bddf-a36f10e6fa8d)
 
-![image](https://github.com/user-attachments/assets/ba4752d5-437d-4ff6-8a2f-f853bec9f032)
+![image](https://github.com/user-attachments/assets/7564c79d-1ebe-4217-a9b1-b4e46a6d1974)
 
 ## Formulário de Inscrição
 ![image](https://github.com/user-attachments/assets/9a48ba96-8d9e-48bc-8fa6-74a83709a9f4)
