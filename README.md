@@ -8,7 +8,7 @@ A Landing Page para lançamento do produto: “MBA em Banking, Finanças e Coope
 5. Executar "node app.js".
 6. Abri no navegador "localhost:3003".
 
-## Evidências do projeto:
+
 
 ## Trello
 ![image](https://github.com/user-attachments/assets/73a71416-d0e9-4dbf-bedb-b89c527cf43c)
