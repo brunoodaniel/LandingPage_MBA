@@ -52,6 +52,20 @@ app.post('/inscrever', (req, res) => {
     });
 });
 
+app.delete('/inscricoes/:id', (req, res) => {
+    const { id } = req.params;
+
+    db.run('DELETE FROM inscricoes WHERE id = ?', [id], function (err) {
+        if (err) {
+            return res.status(500).json({ error: 'Erro ao excluir a inscrição' });
+        }
+        if (this.changes === 0) {
+            return res.status(404).json({ error: 'Inscrição não encontrada' });
+        }
+        res.json({ message: 'Inscrição excluída com sucesso!' });
+    });
+});
+
 const PORT = process.env.PORT || 3003;
 app.listen(PORT, () => {
     console.log(`Servidor rodando na porta ${PORT}`);
