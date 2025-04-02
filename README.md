@@ -1,4 +1,4 @@
-A Landing Page para lançamento do produto: “MBA em Banking, Finanças e Cooperativismo” da UNIVAS foi um trabalho trimestral onde utilizamos as práticas da Metodologia Ágil (SCRUM) para desenvolvermos o projeto e a prática dessa metodologio e Utilizando o trello Para o gerenciamento das tarefas. Segue anexos com evidências:
+A Landing Page para lançamento do produto: “MBA em Banking, Finanças e Cooperativismo” da UNIVAS foi um trabalho trimestral onde utilizamos as práticas da Metodologia Ágil (SCRUM) para desenvolvermos o projeto e utilizando o Trello Para o gerenciamento das tarefas. Segue anexos com evidências:
 
 ## Trello
 ![image](https://github.com/user-attachments/assets/73a71416-d0e9-4dbf-bedb-b89c527cf43c)
