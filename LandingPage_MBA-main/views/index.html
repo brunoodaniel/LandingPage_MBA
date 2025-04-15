@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MBA Banking | UNIVAS</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/style-form.css">
+</head>
+
+<body>
+
+    <header>
+        <img src="/images/univas.png" alt="Logo UNIVAS" class="logo">
+        <h1>MBA em <br> Banking, Finanças e Cooperativismo</h1>
+    </header>
+
+    <section class="description">
+        <div class="description-card">
+            <p>O MBA é uma especialização de alta aplicabilidade, buscando o desenvolvimento gerencial de profissionais e
+                empreendedores em várias áreas de atuação no mercado.</p>
+        </div>
+    </section>
+
+    <section class="hero-section">
+        <div class="hero-text">
+            <div class="highlight-topic">
+                <h3>Sobre o curso</h3>
+                <p>Este MBA busca formar profissionais com competências técnicas e conhecimento teórico, para que
+                    alcancem lugar de destaque e ocupem posições estratégicas no mercado financeiro e de capitais.</p>
+            </div>
+            <div class="topic">
+                <h3>Para quem</h3>
+                <p>Para profissionais que atuam ou têm interesse no mercado financeiro e de capitais, que desejam
+                    desenvolver e utilizar produtos financeiros, atuando com investimentos ou em cargos de liderança.
+                </p>
+            </div>
+            <div class="topic">
+                <h3>Visão ampla</h3>
+                <p>Neste curso, o aluno compreenderá as principais ferramentas de operações financeiras e seus efeitos
+                    práticos, conhecendo produtos, serviços financeiros e interpretando cenários socioeconômicos.</p>
+            </div>
+            <div class="topic">
+                <h3>Sobre a Univás</h3>
+                <p>A Univas é uma universidade reconhecida pela qualidade no ensino e inovação. Com tradição e
+                    excelência, forma profissionais capacitados há mais de 50 anos.</p>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="/images/hero.jpg" alt="MBA Banking">
+        </div>
+    </section>
+
+    <!-- Nova seção "O que esperar deste curso" -->
+    <section class="expectations">
+        <h2>O que esperar deste curso</h2>
+        <p class="subtitle">Nossos cursos são experiências de aprendizado transformadoras.</p>
+        
+        <div class="split-cards-container">
+            <div class="cards-column left-column">
+                <div class="card">
+                    <h3>Corpo Docente</h3>
+                    <p>Composto por professores mentores, que são experts em suas áreas de atuação. Possuem formação acadêmica robusta e acumulam uma vasta experiência empresarial.</p>
+                </div>
+                
+                <div class="card">
+                    <h3>Networking</h3>
+                    <p>Rede de relacionamentos, debates sobre as demandas do mercado, atividades com profissionais renomados e palestras e workshops exclusivos contato com grandes líderes empresariais.</p>
+                </div>
+            </div>
+            
+            <div class="cards-column right-column">
+                <div class="card">
+                    <h3>Webinars e Masterclasses</h3>
+                    <p>Realizamos webinars e masterclasses em parceria com instituições estrangeiras sobre os mais variados temas.</p>
+                </div>
+                
+                <div class="card">
+                    <h3>Qualidade e Excelência</h3>
+                    <p>Um ensino pragmático e uma experiência singular de aprendizado, que agrega metodologia e tecnologia ideais para solucionar os desafios práticos vivenciados no dia a dia corporativo.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="call-to-action">
+        <h2>Prepare-se para o futuro!</h2>
+        <p class="cta-subtitle">Invista em você e seja uma referência na sua área de atuação.</p>
+    </section>
+
+    <!-- Botão de Inscrição -->
+    <div class="inscricao-container">
+        <button id="inscreverBtn">Inscreva-se</button>
+    </div>
+
+    <!-- Formulário Modal -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Inscreva-se</h2>
+            <form id="inscricaoForm">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="telefone">Telefone:</label>
+                <input type="tel" id="telefone" name="telefone" required>
+
+                <label for="ocupacao">Ocupação:</label>
+                <input type="text" id="ocupacao" name="ocupacao" required>
+
+                <label for="renda">Renda Mensal (R$):</label>
+                <input type="number" id="renda" name="renda" required>
+
+                <label for="escolaridade">Escolaridade:</label>
+                <select id="escolaridade" name="escolaridade" required>
+                    <option value="ensino-medio-incompleto">Ensino Médio Incompleto</option>
+                    <option value="ensino-medio">Ensino Médio Completo</option>
+                    <option value="superior-incompleto">Ensino Superior Incompleto</option>
+                    <option value="superior-completo">Ensino Superior Completo</option>
+                    <option value="pos-graduado">Pós-graduado</option>
+                </select>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="/js/form.js"></script>
+
+    <footer>
+        <p>&copy; 2025 UNIVAS - Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+
+</html>

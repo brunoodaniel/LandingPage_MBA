@@ -1,0 +1,318 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    color: #333;
+}
+
+/* Cabeçalho */
+header {
+    background: #014D40;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+header .logo {
+    width: 180px;
+    height: 180px;
+    height: auto;
+    position: absolute;
+    left: 20px;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: white;
+    line-height: 1.2;
+    margin: 0;
+}
+
+/* Nova estilização para a seção de descrição */
+.description {
+    text-align: center;
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+.description-card {
+    background: white;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    border-top: 4px solid #014D40;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.description-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+
+.description-card p {
+    color: #555;
+    line-height: 1.6;
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+}
+
+.description-card p:first-child {
+    color: black;
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+/* Seção Hero */
+.hero-section {
+    display: flex;
+    align-items: center;
+    max-width: 1400px;
+    margin: auto;
+    gap: 50px;
+}
+
+.hero-text {
+    width: 45%;
+    max-width:700px;
+    font-size: 1.1rem;
+    line-height: 1.7;
+    padding-left: 5%;
+}
+
+.highlight-topic {
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    color: black;
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+}
+
+.highlight-topic h3 {
+    color: black;
+    font-size: 1.5rem;
+    margin-bottom: 1px;
+    padding-bottom: 1px;
+}
+
+.highlight-topic p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: black;
+}
+
+.topic {
+    background: #f0fdfa;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-left: 5px solid #01796F;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.topic:hover {
+    transform: translateX(5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.topic h3 {
+    color: #014D40;
+    margin-bottom: 10px;
+    font-size: 1.3rem;
+}
+
+.topic p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #555;
+}
+
+.hero-image {
+    width: 45%;
+    max-width: 600px;
+}
+
+.hero-image img {
+    width: 100%;
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease;
+}
+
+.hero-image img:hover {
+    transform: scale(1.01);
+}
+
+/* Nova seção "O que esperar" */
+.expectations {
+    text-align: center;
+    max-width: 1200px;
+    margin: 60px auto 30px;
+    padding: 0 20px;
+}
+
+.expectations h2 {
+    font-size: 2rem;
+    color: #014D40;
+    margin-bottom: 15px;
+}
+
+.expectations .subtitle {
+    font-size: 1.2rem;
+    color: #555;
+    font-weight: 300;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.split-cards-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin: 40px 0;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cards-column {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 45%;
+}
+
+.left-column {
+    margin-right: auto;
+}
+
+.right-column {
+    margin-left: auto;
+}
+
+.card {
+    background: white;
+    border-radius: 10px;
+    padding: 25px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-top: 4px solid #014D40;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+.card h3 {
+    color: #014D40;
+    font-size: 1.3rem;
+    margin-bottom: 15px;
+}
+
+.card p {
+    color: #555;
+    line-height: 1.6;
+    font-size: 1rem;
+}
+
+/* Botão de Inscrição */
+.inscricao-container {
+    text-align: center;
+    margin: 50px 0;
+}
+
+#inscreverBtn {
+    background-color: #014D40;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#inscreverBtn:hover {
+    background-color: #01796F;
+}
+
+/* Rodapé */
+footer {
+    background: #014D40;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .hero-section {
+        flex-direction: column;
+        background: #f8f8f8;
+        padding: 20px;
+    }
+    
+    .hero-text, .hero-image {
+        width: 100%;
+        padding: 0;
+    }
+    
+    .highlight-topic {
+        transform: none;
+    }
+    
+    .split-cards-container {
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .cards-column {
+        width: 100%;
+    }
+    
+    .card {
+        padding: 20px;
+    }
+}
+
+/* Estilos para a seção de call-to-action */
+.call-to-action {
+    text-align: center;
+    max-width: 800px;
+    margin: 60px auto 20px;
+    padding: 0 20px;
+}
+
+.call-to-action h2 {
+    font-size: 2rem;
+    color: #014D40;
+    margin-bottom: 15px;
+}
+
+.call-to-action .cta-subtitle {
+    font-size: 1.3rem;
+    color: #555;
+    font-weight: 400;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+/* Ajuste no container do botão para melhor espaçamento */
+.inscricao-container {
+    text-align: center;
+    margin: 0 auto 50px;
+    padding: 0 20px;
+}
